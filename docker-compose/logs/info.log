@@ -1,0 +1,18 @@
+2025-02-11 11:23:06 [main] [INFO] [com.sabbir.DockerPracticeApplication] - Starting DockerPracticeApplication v0.0.1-SNAPSHOT using Java 17.0.1 with PID 1 (/app/docker-practice.jar started by root in /app)
+2025-02-11 11:23:06 [main] [INFO] [com.sabbir.DockerPracticeApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 11:23:07 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port 8081 (http)
+2025-02-11 11:23:07 [main] [INFO] [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+2025-02-11 11:23:07 [main] [INFO] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2025-02-11 11:23:07 [main] [INFO] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-11 11:23:07 [main] [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-02-11 11:23:07 [main] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 817 ms
+2025-02-11 11:23:08 [main] [INFO] [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+2025-02-11 11:23:08 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port 8081 (http) with context path '/'
+2025-02-11 11:23:08 [main] [INFO] [com.sabbir.DockerPracticeApplication] - Started DockerPracticeApplication in 1.556 seconds (process running for 2.257)
+2025-02-11 11:24:01 [http-nio-8081-exec-2] [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-11 11:24:01 [http-nio-8081-exec-2] [INFO] [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-02-11 11:24:01 [http-nio-8081-exec-2] [INFO] [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2025-02-11 11:24:01 [http-nio-8081-exec-2] [INFO] [com.sabbir.controller.ShopController] - API called - saveNewShopData()Shop(shopId=104, shopName=sweet, category=departmental shop)
+2025-02-11 11:24:05 [http-nio-8081-exec-3] [INFO] [com.sabbir.controller.ShopController] - API called - getAllShopData[Shop(shopId=101, shopName=best-deal, category=departmental shop), Shop(shopId=102, shopName=daraz, category=online shop), Shop(shopId=103, shopName=rokomari, category=ecommerce shop), Shop(shopId=104, shopName=sweet, category=departmental shop)]
+2025-02-11 11:24:55 [SpringApplicationShutdownHook] [INFO] [org.springframework.boot.web.embedded.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-11 11:24:55 [tomcat-shutdown] [INFO] [org.springframework.boot.web.embedded.tomcat.GracefulShutdown] - Graceful shutdown complete
