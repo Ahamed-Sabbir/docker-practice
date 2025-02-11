@@ -62,6 +62,7 @@ sudo docker run -v ./logs:/app/logs --name docker-practice -p 8081:8081 docker-p
 - Replace placeholders (`<container_name>`, `<image_name>`, `<tag>`, etc.) with actual values.
 - Use `docker ps` to see only running containers.
 - Be cautious when deleting images and containers as this action is irreversible.
+- .env files are hidden.
 
 Happy Dockerizing! 🚀
 
